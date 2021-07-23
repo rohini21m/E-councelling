@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  display: grid;
+  position: relative;
+}
+.header {
+  position: relative;
+}
+.header hr {
+  color: lightgray;
+  border-width: 100%;
+  background-color: white;
+  height: 2px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-right: 4px;
+  margin-left: 30px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.active {
+  background-color: lightgreen;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+.topnav :hover {
+  background-attachment: local;
+  color: orangered;
+}
+
+.img-container {
+  height: 500px;
+  width: 100%;
+  background-image: url(https://www.kolpaper.com/wp-content/uploads/2020/03/spring-sunrise-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: lightgrey;
+  float: left;
+}
+.img-container p {
+  font-family: verdana;
+  font-size: 2rem;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.center {
+  overflow: hidden;
+  display: block;
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+}
+.bar {
+  background-color: lightgreen;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+}
+.form {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-top: 3px;
+  margin-right: 20px;
+  background-color: black;
+}
+.input-field {
+  width: 280px;
+  float: right;
+  height: 50px;
+  background-color: white;
+  margin: 10px 60px;
+  border-radius: 10px;
+  display: block;
+  padding: 0 0rem;
+}
+.input-field i {
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 1.1rem;
+  margin: 0px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.input-field input::placeholder {
+  font-weight: 600;
+}
+.btn {
+  width: 290px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(235, 93, 93);
+  color: white;
+  text-transform: uppercase;
+  font-size: 5mm;
+  transition: 0.5s;
+  margin: 10px 60px;
+}
+.btn:hover {
+  background-color: rgb(231, 97, 108);
+}
+.msgs {
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+}
+a {
+  margin-left: 130px;
+  color: white;
+  background-color: transparent;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.msg {
+  background-color: white;
+  margin: 10px;
+  padding: 5px;
+  margin-left: 120px;
+  align-items: center;
+  right: -10px;
+  width: 1200px;
+  height: 50px;
+  display: block;
+  overflow: hidden;
+}
+.msg p {
+  color: grey;
+  font-size: 1.3rem;
+}
+.msg span a {
+  color: green;
+}
+.footer {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+}
+.footer-msg {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.footer-msg a {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+  color: green;
+  font-size: 1rem;
+}
+.footer-msg a:hover {
+  color: grey;
+}
+.last {
+  margin: 0px;
+  color: grey;
+}
